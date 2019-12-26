@@ -3,8 +3,7 @@ echo $1
 source ~/.bash_profile
 for i in $(cat domains.txt)
 do
-	#crtsh %25.$i
-	crtsh %25$i
+	crtsh %25.$i
 done
 #crtsh $1.%25
 #crtsh %25admin$25.$1
